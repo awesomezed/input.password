@@ -1,5 +1,5 @@
 name = input("Enter your name: ")
-print("Hello, " + name)
+print("Hello, MR." + name)
 
 
 LEGAL_AGE=18
@@ -8,13 +8,8 @@ age = int(input("Please enter your age: "))
 if age<18 :
     print("GO HOME")
 else:
-
     password =input("TYPE YOUR PASSWORD : ")
-
-
-    if password!=int(12345):
-
-
-        print('WRONG PASSWORD')
+    if password =="12345ASD":
+        print('ENTER NOW')
     else :
-        print('YES , YOU CAN ENTER NOW')
+        print('YES , YOU CAN LEAVE NOW')
